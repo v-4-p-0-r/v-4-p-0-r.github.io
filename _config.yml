@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I will do my best not just give a step by step guide, but explain the underlying concepts, as I believe them to be very important
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: @v4p0r3
+twitter_username: v4p0r3
 github_username:  v-4-p-0-r
 
 # Build settings
