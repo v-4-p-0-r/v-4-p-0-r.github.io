@@ -16,9 +16,7 @@
 title: Welcome to The Oasis of Knowledge オアシス
 email: v4p0rsec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Here you will find the write ups to various projects and challenges/CTFs I have completed
-
-  I will do my best not just give a step by step guide, but explain the underlying concepts, as I believe them to be very important
+  Some security info
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: v4p0r3

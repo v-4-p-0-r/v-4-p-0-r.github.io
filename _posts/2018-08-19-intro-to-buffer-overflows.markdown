@@ -17,5 +17,4 @@ int main(int argc, char *argv){
 	return 0;
 	}
 {% endhighlight %}	
-
 Looks innocent enough, and is also a pretty useless program. But what if you give it more than it is programmed to hold?

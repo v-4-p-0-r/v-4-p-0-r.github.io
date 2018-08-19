@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+G r e e t i n g s  t r a v e l e r
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My handle is v4p0r, I am currently a computer science student, who is focusing on security. I am primarily working with binary hacking currently, but I plan to soon branch out and focus on other types of exploits and security too.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+My goal with this site is to attequately document challenges I complete, focusing on documenting my thought process and explaining underlying concepts. Hopefully the posts here will prove useful in helping others learn security as well.
 
-
-[jekyll-organization]: https://github.com/jekyll
+~v4p0r
