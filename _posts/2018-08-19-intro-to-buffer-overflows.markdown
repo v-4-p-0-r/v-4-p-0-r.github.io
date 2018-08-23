@@ -21,6 +21,7 @@ Looks innocent enough, and is also a pretty useless program.
 Running the program doesn't do anything interesting, assuming you give it a small bit of data.
 
 $ ./test foobar
+
 $
 
 It just returns to the terminal.
@@ -28,6 +29,7 @@ It just returns to the terminal.
 But what if you give it more than it is programmed to hold? (I am using python to pass 100 "A"s to the program)
 
 $ ./test $(python -c 'print "A"*100')
+
 Segmentation fault (core dumped)
 
 What is this error we are given? Segmentation fault?
