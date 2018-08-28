@@ -35,14 +35,19 @@ The gets() function will take user input and store it into 'buffer', then the in
 The user input has no way to reach this variable though, all we control is the buffer. Changing this variable should be impossible. Right?
 
 $./stack0
+
 test
+
 Try again?
+
 $
 
 We don't get the desired result. Darn. But what if we try giving more data to the buffer than is allocated to it? I will use python to pass 65 "A"s into the buffer (one more character than is allocated.)
 
 $ python -c 'print "A"*65' | ./stack0
+
 you have changed the 'modified' variable
+
 $
 
 Awesome!
