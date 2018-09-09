@@ -75,4 +75,4 @@ you have correctly got the variable to the right value
 
 $
 
-Cool, now we know that we can set variables to be equal to specific values.
+Cool, now we know that we can set variables to be equal to specific values!
