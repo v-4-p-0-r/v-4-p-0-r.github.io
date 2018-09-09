@@ -50,7 +50,7 @@ you have changed the 'modified' variable
 
 $
 
-Awesome.
+Awesome!
 
 This works because the function gets() doesn't check to make sure that the data it is dealing with is of any specific size. Thus, like pouring too much water into a bucket, it will overflow. And if you notice, the variables are declared right next to one another, and are next to each other in memory.
 
