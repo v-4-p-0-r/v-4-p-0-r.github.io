@@ -30,7 +30,6 @@ int main(int argc, char **argv)
   }
 }
 {% endhighlight %}
-
 As we can see, the goal of this level is to set the 'modified' variable equal to the value 0x61626364, and it should output a message that we have completed the challenge. 
 
 Note that the input you supply is actually through the command line. It would be supplied like this, where foobar is whatever your input is.
