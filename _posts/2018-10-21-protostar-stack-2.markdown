@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "More Stack Overflows: protostar stack1"
+title: "Environment Variable Overflows: protostar stack2"
 date: 2018-10-21 14:53:24 -700
 categories: jekyll update
 ---
@@ -47,7 +47,7 @@ The code is not too different from what we have seen before, except that it uses
 
 getenv() returns a pointer to an environment variable, in this case, "GREENIE".
 
-An environment variable is essentially a value stored in a specific 'envrironment'. They can be used by programs, like the one above.
+An environment variable is essentially a value stored in a specific 'environment'. They can be used by programs, like the one above.
 
 
 Our goal is to set the 'modified' variable to be equal to 0x0d0a0d0a. Notice that this program doesn't take input from the command line OR with gets(), or even scanf().
@@ -78,4 +78,4 @@ you have correctly modified the variable
 $
 
 Cool. 
-Notice that unlike the gets() or strcpy() overflows, for this one, we need to only fill the buffer wiht 64 "A"s instead of 72.
+Notice that unlike the gets() or strcpy() overflows, for this one, we need to only fill the buffer with 64 "A"s instead of 72.
