@@ -30,7 +30,6 @@ int main(int argc, char **argv)
   }
 }
 {% endhighlight %}
-
 Here we have a function outside of the main() called win() and in the main we have a blank function pointer within main, conveniently located right after the end of a buffer. 
 
 If you are not familiar with how a c program runs, the code contained in the main() will be executed, and other functions outside of it are typically called within main. Since the function win() is never called by main(), it will never execute. Unless you are a hacker. 
