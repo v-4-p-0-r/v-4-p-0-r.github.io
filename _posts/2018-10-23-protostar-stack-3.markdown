@@ -4,7 +4,7 @@ title: "Redirecting Code To Specific Address: protostar stack3"
 date: 2018-10-23 16:02:45 -700
 categories: jekyll update
 ---
-{% highlight c %}
+{%highlight c%}
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
       fp();
   }
 }
-{% endhighlight %}
+{%endhighlight%}
 Here we have a function outside of the main() called win() and in the main we have a blank function pointer within main, conveniently located right after the end of a buffer. 
 
 If you are not familiar with how a c program runs, the code contained in the main() will be executed, and other functions outside of it are typically called within main. Since the function win() is never called by main(), it will never execute. Unless you are a hacker. 
