@@ -5,6 +5,7 @@ date: 2018-10-23 16:02:45 -700
 categories: jekyll update
 ---
 
+{% highlight c %}
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
