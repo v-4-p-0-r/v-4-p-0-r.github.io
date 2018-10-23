@@ -30,6 +30,7 @@ int main(int argc, char **argv)
       fp();
   }
 }
+
 {% endhighlight %}
 Here we have a function outside of the main() called win() and in the main we have a blank function pointer within main, conveniently located right after the end of a buffer. 
 
