@@ -40,7 +40,7 @@ The address in this case is 0x80483f4.
 
 We now just need to find the offset between the end of the buffer, which we will fill up, and the EIP we want to overwrite. This can be done by writing a script, trial and error, or we can just use what we did before (76 characters). The buffer is the same size, so we might as well give 76 a shot
 
-$python -c 'print "A"*76' | ./stack4 
+$python -c 'print "A"*76' \| ./stack4 
 
 Segmentation fault
 
@@ -48,13 +48,13 @@ $
 
 A segmentation fault is a good sign. We are overwriting the EIP, and causing it to access memory out of bounds. Just to be safe, we can test it at 75 characters and see if it segfaults.
 
-$python -c 'print "A"*75' | ./stack4 
+$python -c 'print "A"*75' \| ./stack4 
 
 $
 
 Looks like 76 is perfect, now we need to append the address of win(), in little endian byte order, and cause the program to execute the win() function.
 
-$python -c 'print "A"*76 + "\xf4\x83\x04\x08"' | ./stack4
+$python -c 'print "A"*76 + "\xf4\x83\x04\x08"' \| ./stack4
 
 Code flow successfully changed
 
