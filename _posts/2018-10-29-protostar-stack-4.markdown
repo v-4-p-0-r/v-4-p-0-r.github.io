@@ -7,7 +7,6 @@ categories: jekyll update
 
 This challenge is similar to the previous one, but with a major difference: 
 
-{% highlight c %}
 #include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
