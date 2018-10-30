@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Overwriting the instruction pointer: protostar stack4"
-date: 2018-10-29
+date: 2018-10-29 18:55:04 -700
 categories: jekyll update
 ---
 This challenge is similar to the previous one, but with a major difference: 
@@ -22,7 +22,6 @@ int main(int argc, char **argv)
 
   gets(buffer);
 }
-{% endhighlight %}
 There is a function, win() which we will attempt to call, but we are no longer given a function pointer to overwrite. 
 
 We will need to write to the instruction pointer, in this case, it is specifically called the EIP. To do this, we first need to find the address of the win() function, because that is what we will write to the instruction pointer.
