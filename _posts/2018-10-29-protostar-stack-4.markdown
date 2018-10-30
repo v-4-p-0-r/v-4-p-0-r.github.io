@@ -24,7 +24,6 @@ int main(int argc, char **argv)
 
   gets(buffer);
 }
-{% endhighlight %}
 There is a function, win() which we will attempt to call, but we are no longer given a function pointer to overwrite. 
 
 We will need to write to the instruction pointer, in this case, it is specifically called the EIP. To do this, we first need to find the address of the win() function, because that is what we will write to the instruction pointer.
