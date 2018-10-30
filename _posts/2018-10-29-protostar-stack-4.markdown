@@ -4,6 +4,7 @@ title: "Overwriting the instruction pointer: protostar stack4"
 date: 2018-10-29
 categories: jekyll update
 ---
+This challenge is similar to the previous one, but with a major difference: 
 {% highlight c %}
 #include <stdlib.h>
 #include <unistd.h>
