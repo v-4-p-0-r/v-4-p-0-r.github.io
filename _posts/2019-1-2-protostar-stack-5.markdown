@@ -24,7 +24,7 @@ What we are given to work with here is simply a main function with a buffer of s
 
 We can use python to test how many characters we need to input to trigger a crash. Because the buffer is the same size, I will try to use 76 "A"s, like before.
 
-$ python -c 'print "A"*76' | /opt/protostar/bin/stack5
+$ python -c 'print "A"*76' \| /opt/protostar/bin/stack5
 
 $
 
@@ -54,7 +54,7 @@ print offset + eip + (nop * 78) + shellcode
 
 What the exploit is doing is printing a sting. First we fill the buffer to let us overflow. Then the EIP is overwritten with an address I guessed would land us in the shellcode. This is followed by a somewhat large number of NOPs. NOPs are machine instructions which do nothing, so they are perfect for creating a "slide" into the shellcode. If the EIP which I guessed is anywhere in the memory with the NOPs, the processor will execute the do nothing instruction all the way until it reaches our shellcode, and executes that.
 
-$ python exploit.py | /opt/protostar/bin/stack5
+$ python exploit.py \| /opt/protostar/bin/stack5
 
 $
 
@@ -67,7 +67,7 @@ This will allow us to interact with our shell
 
 $ python exploit.py > e
 
-$ cat e - | /opt/protostar/bin/stack5
+$ cat e - \| /opt/protostar/bin/stack5
 
 whoami
 
