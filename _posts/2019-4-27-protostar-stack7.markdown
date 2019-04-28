@@ -60,6 +60,7 @@ I found the offset again, but thought I should include the junk above it. This i
 So as a not, remember to grep.
 
 Ok cool, we got the address of /bin/sh once again. Basically retracing the steps of the previous challenge, for p r a c t i c e.
+
 ![stack7-4](/assets/stack7-4.png)
 
 Once more, let's organize this into a nice crunchy python script. 
