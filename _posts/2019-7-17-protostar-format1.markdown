@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Simple Format String Vulnerability: protostar format1"
-date: 2019-7-17
+date: 2019-7-19
 ---
 This next challenge will be a pure format string vulnerability, we can't fall back on stack overflows as we did previously. Not only this, but in contrast to the previous level, this one is not conceptually like overflows at all. 
 {% highlight c %}

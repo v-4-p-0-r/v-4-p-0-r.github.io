@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sort of a format string vulnerability: protostar format0"
+title: "Sort of a format string vulnerability: protostar format0"
 date: 2019-7-18
 ---
 
