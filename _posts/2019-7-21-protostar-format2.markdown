@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing a Specific Value to a Target: protostar format2
+title: "Writing a Specific Value to a Target: protostar format2"
 date: 2019-7-23
 ---
 Now we're going to move on to writing specific values to a target. 
