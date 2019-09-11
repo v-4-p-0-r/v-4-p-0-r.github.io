@@ -101,10 +101,12 @@ os.system("echo" + payload + " | /opt/protostar/bin/format3")
 We increase the format specifier by 1.
 
 And wait a whole 2 minutes.
-[format3-7](/assets/format3-7.png)
+![format3-7](/assets/format3-7.png)
 Well, we did it. As for why subtracting 4b gave us a number off by one, I should have realized that likely since we put one into the number initially there, 4b is the amount stored plus one, input by our "%x", which has an implied 1.
 The base number is likely 4a.
 
 This challenge, I personally found difficult, but fun. It's good when you have to do a bit of digging, playing with a debugger and reading information. 
+
+
 ![aesthetic1](/assets/aesthetic1.jpg)
 Anyways, time for some rest.
