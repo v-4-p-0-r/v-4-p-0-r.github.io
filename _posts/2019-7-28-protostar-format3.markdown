@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Writing Large Values to Specific Targets: protostar format3“
+title: "Writing Large Values to Specific Targets: protostar format3"
 date: 2019-9-10
 ---
 The challenge is not much different from the last, the only difference here is that the value we will write to the target is much larger.
